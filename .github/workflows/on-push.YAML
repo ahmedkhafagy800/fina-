@@ -1,9 +1,0 @@
-name : my work flow
-on : push
-jobs:
-  job1:
-   runs-on: windows
-   steps:
-      - name: Print some random messages 2
-        run: echo "some random message"
-      
